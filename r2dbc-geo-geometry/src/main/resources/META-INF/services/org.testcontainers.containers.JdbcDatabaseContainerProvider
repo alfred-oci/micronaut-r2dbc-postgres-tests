@@ -1,0 +1,2 @@
+org.testcontainers.containers.PostgreSQLContainerProvider
+org.testcontainers.containers.PostgisContainerProvider

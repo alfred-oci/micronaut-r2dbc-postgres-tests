@@ -1,0 +1,5 @@
+r2dbc:
+  datasources:
+    default:
+      url: r2dbc:tc:postgresql:///postgis?TC_IMAGE_NAME=postgis/postgis&TC_IMAGE_TAG=latest
+      dialect: POSTGRES

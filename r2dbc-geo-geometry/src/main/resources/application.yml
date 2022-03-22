@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: r2dbc-geo-geometry
+netty:
+  default:
+    allocator:
+      max-order: 3
