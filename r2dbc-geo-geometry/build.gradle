@@ -27,14 +27,13 @@ dependencies {
     implementation("org.testcontainers:r2dbc")
     implementation("org.testcontainers:testcontainers")
     implementation("org.testcontainers:jdbc")
-//    testImplementation("org.testcontainers:postgresql")
 
     compileOnly("org.projectlombok:lombok:1.18.22")
     testImplementation("org.projectlombok:lombok:1.18.22")
     annotationProcessor("org.projectlombok:lombok:1.18.22")
     implementation('io.projectreactor:reactor-core:3.4.15')
 
-    runtimeOnly("org.postgresql:postgresql")
+//    runtimeOnly("org.postgresql:postgresql")
     implementation("io.micronaut.data:micronaut-data-r2dbc")
 //    implementation('org.postgresql:r2dbc-postgresql:0.9.0.RELEASE')
     implementation('org.postgresql:r2dbc-postgresql:1.0.0.BUILD-SNAPSHOT')
