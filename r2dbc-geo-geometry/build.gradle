@@ -27,6 +27,7 @@ dependencies {
     implementation("org.testcontainers:r2dbc")
     implementation("org.testcontainers:testcontainers")
     implementation("org.testcontainers:jdbc")
+    implementation("org.testcontainers:postgresql")
 
     compileOnly("org.projectlombok:lombok:1.18.22")
     testImplementation("org.projectlombok:lombok:1.18.22")
